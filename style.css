@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #542554;
+}
+
+.navbar {
+    background-color: #ffffff00;
+    position: fixed;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    /* border-radius: 30px; */
+}
+
+.navbar ul {
+    background-color: #f466f461;
+    backdrop-filter: blur(10px);
+    width: 85%;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar i {
+    margin-left: 50px;
+    padding: 5px;
+    color: #000;
+    font-weight: 800;
+}
+
+.navbar i:hover {
+    color: #f466f4;
+}
+
+.header {
+    color: #000;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.header h4 {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.header h5 {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.header img {
+    width: 50%;
+    padding: 20px;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/*========= isi========= */
+
+.gift {
+    background-color: #fff;
+    margin-top: 10rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.title {
+    margin: 40px;
+    color: #000;
+    text-align: center;
+}
+
+.title h2 {
+    color: #000;
+}
+
+.title h3 {
+    color: #542554;
+}
+
+.title h6 {
+    margin-top: 5px;
+}
+
+.content {
+    color: #fff;
+    margin: 20px;
+    padding: 40px;
+    background-color: #542554;
+    border-radius: 20px;
+}
+
+.content h3 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.content h6 {
+    margin-top: 20px;
+    text-align: end;
+}
+
+.baloon {
+    margin-top: -25px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.baloon h2 {
+    color: #542554;
+}
+
+.baloon h3 {
+    padding-top: 80px;
+}
+
+/* ====== images ======= */
+
+
+.images {
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.images h1 {
+    color: #fff;
+}
+
+.images img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.ft {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.ft p {
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer h6 {
+    color: #542554;
+}
