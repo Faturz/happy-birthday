@@ -108,6 +108,8 @@ body {
 }
 
 .content {
+    text-align: center;
+    align-items: center;
     color: #fff;
     margin: 20px;
     padding: 40px;
@@ -126,6 +128,8 @@ body {
 }
 
 .baloon {
+    text-align: center;
+    align-items: center;
     margin-top: -25px;
     padding: 40px;
     border-radius: 20px;
